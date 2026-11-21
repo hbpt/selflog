@@ -1,0 +1,31 @@
+SESSION 2026-11-17 09:09:35.948 (local) | 2026-11-17 01:09:36.041Z (UTC)
+mode          : self
+tag           : T1
+encoding      : escaped (CR/TAB as \r \t; UTF-8 passed through)
+cwd           : /c/Users/Administrator/WorkBuddy/2026-11-13-15-55-42/selflog/test/sh
+parent        : 739 (?)
+log_file      : self.log
+cmdline       : ../../dist/selflog.sh -l self.log --tag T1 --say to\ stdout --err to\ stderr 
+argc          : 9
+argv[0]       : ../../dist/selflog.sh
+argv[1]       : -l
+argv[2]       : self.log
+argv[3]       : --tag
+argv[4]       : T1
+argv[5]       : --say
+argv[6]       : to stdout
+argv[7]       : --err
+argv[8]       : to stderr
+--------------------------------------------------------------------------------
+--- IN  24 bytes ---
+hello world
+second line
+
+--- OUT 10 bytes ---
+to stdout
+
+--- ERR 10 bytes ---
+to stderr
+
+totals        : stdin=24 stdout=10 stderr=10 bytes
+END 2026-11-17 09:09:37.452  elapsed=1.807s  exit=0

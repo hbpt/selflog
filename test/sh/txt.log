@@ -1,0 +1,19 @@
+SESSION 2026-11-17 09:14:24.719 (local) | 2026-11-17 01:14:24.817Z (UTC)
+mode          : self
+encoding      : text (UTF-8 -> UTF-8 via iconv; CR/TAB escaped)
+cwd           : /c/Users/Administrator/WorkBuddy/2026-11-13-15-55-42/selflog/test/sh
+parent        : 205 (?)
+log_file      : txt.log
+cmdline       : ../../dist/selflog.sh -q --text -l txt.log --truncate 
+argc          : 6
+argv[0]       : ../../dist/selflog.sh
+argv[1]       : -q
+argv[2]       : --text
+argv[3]       : -l
+argv[4]       : txt.log
+argv[5]       : --truncate
+--------------------------------------------------------------------------------
+--- IN  2 bytes ---
+ok
+totals        : stdin=2 stdout=0 stderr=0 bytes
+END 2026-11-17 09:14:25.477  elapsed=1.199s  exit=0

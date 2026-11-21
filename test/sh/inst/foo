@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "orig ran: $*"
+exit 3

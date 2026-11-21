@@ -1,0 +1,18 @@
+SESSION 2026-11-17 09:10:54.268 (local) | 2026-11-17 01:10:54.365Z (UTC)
+mode          : self
+encoding      : escaped (CR/TAB as \r \t; UTF-8 passed through)
+cwd           : /c/Users/Administrator/WorkBuddy/2026-11-13-15-55-42/selflog/test/sh
+parent        : 1960 (?)
+log_file      : o.log
+cmdline       : ./orphan_demo -l o.log --truncate 
+argc          : 4
+argv[0]       : ./orphan_demo
+argv[1]       : -l
+argv[2]       : o.log
+argv[3]       : --truncate
+--------------------------------------------------------------------------------
+--- IN  2 bytes ---
+x
+
+totals        : stdin=2 stdout=0 stderr=0 bytes
+END 2026-11-17 09:10:55.031  elapsed=1.035s  exit=0

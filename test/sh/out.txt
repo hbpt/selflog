@@ -1,0 +1,3 @@
+to stdout
+hello world
+second line

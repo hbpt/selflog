@@ -1,0 +1,27 @@
+SESSION 2026-11-17 09:14:14.703 (local) | 2026-11-17 01:14:14.804Z (UTC)
+mode          : proxy (transparent forward)
+encoding      : escaped (CR/TAB as \r \t; UTF-8 passed through)
+cwd           : /c/Users/Administrator/WorkBuddy/2026-11-13-15-55-42/selflog/test/sh
+parent        : 205 (?)
+log_file      : /c/Users/Administrator/WorkBuddy/2026-11-13-15-55-42/selflog/test/sh/proxy/selflog.log
+cmdline       : proxy/proxydemo 
+argc          : 1
+argv[0]       : proxy/proxydemo
+proxy_of      : proxy/proxydemo
+real_exe      : /c/Users/Administrator/WorkBuddy/2026-11-13-15-55-42/selflog/test/sh/proxy/proxydemo_real
+fwd_argc      : -1
+--------------------------------------------------------------------------------
+child_pid     : 252
+--------------------------------------------------------------------------------
+--- IN  3 bytes ---
+v1
+
+--- OUT 25 bytes ---
+real got: 
+real-echo: v1
+
+--- ERR 12 bytes ---
+real-stderr
+
+totals        : stdin=3 stdout=25 stderr=12 bytes
+END 2026-11-17 09:14:16.339  elapsed=2.034s  exit=5

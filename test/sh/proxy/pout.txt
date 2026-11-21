@@ -1,0 +1,4 @@
+real got: --flag value
+real-echo: hello world
+real-echo: second line
+real-echo: third

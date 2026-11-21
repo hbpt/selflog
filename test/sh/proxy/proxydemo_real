@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "real got: $*"
+while IFS= read -r l; do echo "real-echo: $l"; done
+echo "real-stderr" >&2
+exit 5

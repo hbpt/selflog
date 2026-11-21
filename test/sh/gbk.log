@@ -1,0 +1,21 @@
+SESSION 2026-11-17 09:13:51.922 (local) | 2026-11-17 01:13:52.015Z (UTC)
+mode          : self
+encoding      : text (GBK -> UTF-8 via iconv; CR/TAB escaped)
+cwd           : /c/Users/Administrator/WorkBuddy/2026-11-13-15-55-42/selflog/test/sh
+parent        : 84 (?)
+log_file      : gbk.log
+cmdline       : ../../dist/selflog.sh -q --cp GBK -l gbk.log --truncate 
+argc          : 7
+argv[0]       : ../../dist/selflog.sh
+argv[1]       : -q
+argv[2]       : --cp
+argv[3]       : GBK
+argv[4]       : -l
+argv[5]       : gbk.log
+argv[6]       : --truncate
+--------------------------------------------------------------------------------
+--- IN  9 bytes ---
+中文测试
+
+totals        : stdin=9 stdout=0 stderr=0 bytes
+END 2026-11-17 09:13:52.743  elapsed=1.129s  exit=0
